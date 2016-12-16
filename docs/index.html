@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Meta Checker</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<div id="wrapper">
+  <div class="ui container">
+    <h1>Simple Meta Checker</h1>
+
+    <div class="ui grid">
+      <div class="six wide column">
+        <div class="ui form">
+          <div class="field">
+            <textarea id="url" class="area-url" placeholder="チェックしたいURLを入力"></textarea>
+          </div>
+          <p class="caption">
+            ※ 改行で複数入力可能<br>
+            ※ 絶対パス/ルートパス/相対パスで入力できます
+          </p>
+        </div>
+      </div><!-- column -->
+
+
+      <div class="ten wide column">
+
+        <section class="section">
+          <div class="ui small header">Elements</div>
+          <div class="ui grid">
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="title" name="title" checked="checked">
+                <label for="title">title</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="h1" name="h1" checked="checked">
+                <label for="h1">h1</label>
+              </div>
+            </div>
+          </div>
+        </section><!--  // Elements -->
+
+
+        <section class="section">
+          <div class="ui small header">Meta</div>
+          <div class="ui grid">
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="" name="description" checked="checked">
+                <label for="">description</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="keywords" name="keywords">
+                <label for="keywords">keywords</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="robots" name="robots">
+                <label for="robots">robots</label>
+              </div>
+            </div>
+          </div>
+        </section><!--  // Meta -->
+
+
+        <section class="section">
+          <div class="ui small header">Link</div>
+          <div class="ui grid">
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="canonical" name="canonical" checked="checked">
+                <label for="canonical">canonical</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="alternate" name="alternate">
+                <label for="alternate">alternate</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="amphtml" name="amphtml">
+                <label for="amphtml">amphtml</label>
+              </div>
+            </div>
+          </div>
+        </section><!--  // Link -->
+
+
+        <section class="section">
+          <div class="ui small header">Facebook / Open Graph</div>
+          <div class="ui grid">
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="app_id" name="app_id" checked="checked">
+                <label for="app_id">fb:app_id</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="ogurl" name="ogurl" checked="checked">
+                <label for="ogurl">og:url</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="ogtype" name="ogtype">
+                <label for="ogtype">og:type</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="ogtitle" name="ogtitle" checked="checked">
+                <label for="ogtitle">og:title</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="ogimage" name="ogimage" checked="checked">
+                <label for="ogimage">og:image</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="ogdescription" name="ogdescription" checked="checked">
+                <label for="ogdescription">og:description</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="ogsite_name" name="ogsite_name">
+                <label for="ogsite_name">og:site_name</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="oglocale" name="oglocale">
+                <label for="oglocale">og:locale</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="article_author" name="article_author">
+                <label for="article_author">article:author</label>
+              </div>
+            </div>
+          </div>
+        </section><!--  // Facebook / Open Graph -->
+
+
+
+        <section class="section">
+          <div class="ui small header">Twitter</div>
+          <div class="ui grid">
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="twcard" name="twcard" checked="checked">
+                <label for="twcard">twitter:card</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="twsite" name="twsite" checked="checked">
+                <label for="twsite">twitter:site</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="twcreator" name="twcreator">
+                <label for="twcreator">twitter:creator</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="twurl" name="twurl" checked="checked">
+                <label for="twurl">twitter:url</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="twtitle" name="twtitle" checked="checked">
+                <label for="twtitle">twitter:title</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="twdescription" name="twdescription" checked="checked">
+                <label for="twdescription">twitter:description</label>
+              </div>
+            </div>
+            <div class="four wide column">
+              <div class="ui checkbox">
+                <input type="checkbox" id="twimage" name="twimage" checked="checked">
+                <label for="twimage">twitter:image</label>
+              </div>
+            </div>
+          </div>
+        </section><!--  // Twitter -->
+
+        <div class="area-submit">
+          <button class="button" id="submit">Check</button>
+        </div>
+
+      </div><!-- column -->
+
+    </div><!-- grid -->
+  </div><!-- .container -->
+</div><!-- # wrapper -->
+
+<div id="loader">
+  <div class="ui loading form"></div>
+</div>
+
+
+<div id="report">
+  <table id="report-table"></table>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
