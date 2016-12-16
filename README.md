@@ -17,6 +17,18 @@ Ajaxを使用して情報を取得するので、制限の掛かった開発環�
 
 ### デモサイト
 
+GitHub Pagesでデモサイトを作っています。
+https://kandai.github.io/simple-meta-checker/sample/01.html
+
+4つほどサンプルのHTMLを用意してますので、下記のように入力して試してみてください。
+
+```
+https://kandai.github.io/simple-meta-checker/sample/01.html
+https://kandai.github.io/simple-meta-checker/sample/02.html
+https://kandai.github.io/simple-meta-checker/sample/03.html
+https://kandai.github.io/simple-meta-checker/sample/04.html
+```
+
 
 ### ファイル構成
 `docs` 以外は開発用のファイルです。
@@ -27,6 +39,7 @@ Ajaxを使用して情報を取得するので、制限の掛かった開発環�
 
 Chromeでしか動作確認してません。
 ブラウザ幅は広いほうが見やすいです。
+
 
 ##＃ 注意事項
 
