@@ -18,7 +18,7 @@ Ajaxを使用して情報を取得するので、制限の掛かった開発環�
 ### デモサイト
 
 GitHub Pagesでデモサイトを作っています。
-https://kandai.github.io/simple-meta-checker/sample/01.html
+https://kandai.github.io/simple-meta-checker/
 
 4つほどサンプルのHTMLを用意してますので、下記のように入力して試してみてください。
 
